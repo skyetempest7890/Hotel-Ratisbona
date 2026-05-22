@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 200%;
+    box-shadow: 0px 4px 8px rgb(57, 57, 57);
+    background-color: ;
+    overflow: hidden;
+}
+.image-container{
+    flex: 1;
+
+}
+.image-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.text-container{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-container h2{
+    font-size: 2rem;
+    color: rgb(40, 40, 40);
+    margin-top: 1;
+    margin-bottom: 20px;
+}
+.text-container p{
+    font-size: 1rem;
+color: rgb(40, 40, 40);
+line-break: 1.6;
+
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/estilo-formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    
+<div class="contenedor-imagen">
+
+    <img src="IMG/03fa6d64-783a-43b0-9b5e-42e6e1215f44.jpg">
+
+        <header class="navbar">
+
+        <div class="logo">
+            HOTEL
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="gastronomia.html">Gastronomía</a></li>
+                <li><a href="experiencias.html">Experiencias</a></li>
+                <li><a href="habitaciones.html">Habitaciones</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="formulario">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key"
+            value="cd53c601-377b-4520-b669-51ff1e293b2d">
+
+            <h2><i class="fa-solid fa-envelope"></i>Contacto</h2>
+
+            <p class="subtitle">
+                Ingresa tus datos correctamente y pronto te responderemos
+            </p>
+
+            <div class="input-group">
+
+                <label for="name">
+                    <i class="fa-solid fa-user"></i> Nombre
+                </label>
+
+                <input type="text" name="name" id="name"
+                placeholder="Ingresa tus nombres" required>
+
+                <label for="phone">
+                    <i class="fa-solid fa-phone"></i> Teléfono
+                </label>
+
+                <input type="tel" name="phone" id="phone"
+                placeholder="Agrega tu número" required>
+
+                <label for="email">
+                    <i class="fa-solid fa-at"></i> Email
+                </label>
+
+                <input type="email" name="email" id="email"
+                placeholder="Agrega tu Email" required>
+
+                <label for="message">
+                    <i class="fa-solid fa-comment-dots"></i> Mensaje
+                </label>
+
+                <textarea name="message" id="message" rows="4"
+                placeholder="¿En qué podemos ayudarte?"></textarea>
+
+                <label for="fecha">
+    <i class="fa-solid fa-calendar-days"></i> Fecha
+</label>
+
+<input type="date" name="fecha" id="fecha" required>
+
+<label for="hora">
+    <i class="fa-solid fa-clock"></i> Hora
+</label>
+
+<input type="time" name="hora" id="hora" required>
+
+
+                <button type="submit" class="btn">
+                    Enviar Mensaje
+                </button>
+
+            </div>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
